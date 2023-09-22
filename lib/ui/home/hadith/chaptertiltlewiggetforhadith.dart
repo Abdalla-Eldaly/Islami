@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:islami/ui/Chapterdetails/chapterdetailsforhadith.dart';
-import 'package:islami/ui/home/hadith/hadith.dart';
+
+
+import '../../Chapterdetails/chapterdetailsforhadith.dart';
 
 class hadithwidget extends StatelessWidget {
 String tittle;

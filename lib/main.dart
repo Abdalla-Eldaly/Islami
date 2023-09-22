@@ -1,7 +1,9 @@
+
 import 'package:flutter/material.dart';
 import 'package:islami/ui/Chapterdetails/ChapterDetails.dart';
 import 'package:islami/ui/home/hadith/hadith.dart';
 import 'package:islami/ui/home/homepage.dart';
+
 
 void main() {
   runApp(const MyApp());

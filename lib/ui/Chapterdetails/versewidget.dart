@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:islami/ui/Chapterdetails/ChapterDetails.dart';
 
 class versewidget extends StatelessWidget {
 String content;
