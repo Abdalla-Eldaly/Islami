@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../Chapterdetails/ChapterDetails.dart';
 
@@ -19,11 +20,12 @@ ChapterTitleWidget(this.title,this.index);
         alignment: Alignment.center,
         padding: EdgeInsets.symmetric(vertical: 8),
         child: Text(title,
-        style: TextStyle(
+        style: GoogleFonts.getFont('Amiri',  textStyle: TextStyle(
           fontSize: 25,
-          fontWeight: FontWeight.bold,
-          fontFamily: 'monotypekoufibold',
-        ),),
+          fontWeight: FontWeight.w700,
+color: Theme.of(context).colorScheme.onPrimary
+        ),)
+        ),
       ),
     );
   }

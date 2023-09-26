@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class sebha extends StatefulWidget {
   @override
@@ -6,13 +7,13 @@ class sebha extends StatefulWidget {
 }
 
 class _sebhaState extends State<sebha> {
-  List<String> tesbih = ['سبحان الله ', 'الحمد لله', 'الله أكبر'];
+  List<String> tesbih = [ 'الله أكبر', 'الحمد لله','سبحان االله '];
 
   int numSebha = 0;
 
   int count = 1 ;
 
-  String nameSebha = 'سبحان الله';
+  String nameSebha = 'االله أكبر';
 
   double rotationAngle = 0.0;
 
@@ -61,10 +62,9 @@ class _sebhaState extends State<sebha> {
         SizedBox(
           height: 20,
         ),
-        Text("عدد التسبيحات",style: TextStyle(
-            color: Colors.black,
-            fontSize: 25
-        ),),
+        Text('عدد التسبيحات',style: GoogleFonts.getFont('El Messiri',textStyle: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,
+        color: Theme.of(context).colorScheme.onPrimary)),),
+
         SizedBox(
           height: 20,
         ),
@@ -76,25 +76,25 @@ class _sebhaState extends State<sebha> {
               color: Theme.of(context).primaryColor,
               borderRadius: BorderRadius.circular(25)),
           child:
-          Text('$numSebha',style: TextStyle(
-              color: Color(0xFFF8F8F8),
-              fontSize: 25
-          ),),
+          Text('$numSebha',style: GoogleFonts.getFont('Lato',textStyle: TextStyle(fontSize: 30,fontWeight: FontWeight.bold
+          ,color: Theme.of(context).colorScheme.onSecondary)),),
+
         ),
         SizedBox(
           height: 20,
         ),
         Container(
           height: 50,
-          width: 130,
+          width: 150,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-              color: Color(0xFFB79555),
+              color: Theme.of(context).colorScheme.secondary,
               borderRadius: BorderRadius.circular(25)),
           child:
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text('$nameSebha',style: TextStyle(fontSize: 25),),
+            child:Text('$nameSebha',style: GoogleFonts.getFont('Lalezar',textStyle: TextStyle(
+                color:Colors.black,fontSize: 25,fontWeight: FontWeight.w400)),),
           ),
         ),
       ],
