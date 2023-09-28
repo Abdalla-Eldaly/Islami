@@ -58,17 +58,6 @@ hadithshow.isEmpty?Center(child: CircularProgressIndicator())
                   itemCount: hadithshow.length))
              ,
 
-              Expanded(child:
-hadithshow.isEmpty?Center(child: CircularProgressIndicator())
-              :ListView.separated(
-                  itemBuilder: (context,index)=> hadithitleWidget(hadithshow[index]),
-                  separatorBuilder: (context, index) => Container(
-                color: Theme.of(context).colorScheme.secondary,
-                width: double.infinity,
-                height: 2,
-                margin: EdgeInsets.symmetric(horizontal: 50),
-              ),
-                  itemCount: hadithshow.length))
 
 
 
@@ -96,8 +85,4 @@ hadithshow.add(haddith);
 }
 }
 
-class Hadith{
-  String tittle;
-  String content;
-  Hadith(this.tittle,this.content);
-}
+
