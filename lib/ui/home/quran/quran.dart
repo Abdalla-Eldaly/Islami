@@ -111,7 +111,7 @@ class quran extends StatelessWidget {
     "الهمزة",
     "الفيل",
     "قريش",
-    "الماعون",
+    " الماعون",
     "الكوثر",
     "الكافرون",
     "النصر",
@@ -138,7 +138,7 @@ class quran extends StatelessWidget {
                         color: Theme.of(context).primaryColor,
                         width: double.infinity,
                         height: 2,
-                        margin: EdgeInsets.symmetric(horizontal: 50),
+                        margin: EdgeInsets.symmetric(horizontal: 49),
                       ),
                   itemCount: names.length))
         ],
