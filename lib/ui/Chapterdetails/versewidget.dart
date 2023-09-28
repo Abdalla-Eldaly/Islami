@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:islami/ui/Chapterdetails/ChapterDetails.dart';
 
 class versewidget extends StatelessWidget {
 String content;
@@ -19,7 +18,6 @@ versewidget(this.content,this.index);
         style: TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.bold,
-//          fontFamily: 'monotypekoufibold',
         ),),
       ),
     );
