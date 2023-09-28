@@ -4,6 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:islami/ui/MyThemData/MyThemeData.dart';
 import 'package:islami/ui/home/hadith/hadith.dart';
 
+import '../../home/hadith/hadithtittlewidget.dart';
+
 class HadithDetails extends StatelessWidget {
   static String RoutName = 'hadithDetails';
   @override

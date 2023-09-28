@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'hadithTitleWidget.dart';
+import 'hadithtittlewidget.dart';
 
 
 class hadith extends StatefulWidget {
@@ -48,7 +48,7 @@ class _hadithState extends State<hadith> {
               Expanded(child:
 hadithshow.isEmpty?Center(child: CircularProgressIndicator())
               :ListView.separated(
-                  itemBuilder: (context,index)=> ThadithitleWidget(hadithshow[index]),
+                  itemBuilder: (context,index)=> hadithitleWidget(hadithshow[index]),
                   separatorBuilder: (context, index) => Container(
                 color: Theme.of(context).colorScheme.secondary,
                 width: double.infinity,
@@ -83,8 +83,3 @@ hadithshow.add(haddith);
 }
 }
 
-class Hadith{
-  String tittle;
-  String content;
-  Hadith(this.tittle,this.content);
-}
