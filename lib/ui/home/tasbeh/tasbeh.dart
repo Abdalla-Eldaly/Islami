@@ -7,13 +7,13 @@ class sebha extends StatefulWidget {
 }
 
 class _sebhaState extends State<sebha> {
-  List<String> tesbih = [ 'الله أكبر', 'الحمد لله','سبحان االله '];
+  List<String> tesbih = [ 'سبحان االله', 'الحمد لله','الله أكبر'];
 
   int numSebha = 0;
 
   int count = 1 ;
 
-  String nameSebha = 'االله أكبر';
+  String nameSebha = 'سبحان االله';
 
   double rotationAngle = 0.0;
 

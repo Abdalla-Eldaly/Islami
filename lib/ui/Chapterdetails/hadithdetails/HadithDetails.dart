@@ -39,7 +39,7 @@ class HadithDetails extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 18.0),
                 child: Card(
-                  margin: EdgeInsets.symmetric(horizontal: 7.9),
+                  margin: EdgeInsets.symmetric(horizontal: 8),
                   child: Text(arge.content,
                       textAlign: TextAlign.start,
                       style: TextStyle(

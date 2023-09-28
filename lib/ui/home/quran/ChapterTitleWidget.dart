@@ -21,7 +21,7 @@ ChapterTitleWidget(this.title,this.index);
         padding: EdgeInsets.symmetric(vertical: 8),
         child: Text(title,
         style: GoogleFonts.getFont('Amiri',  textStyle: TextStyle(
-          fontSize: 25,
+          fontSize: 24.9,
           fontWeight: FontWeight.w700,
 color: Theme.of(context).colorScheme.onPrimary
         ),)

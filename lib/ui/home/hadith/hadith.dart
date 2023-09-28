@@ -56,6 +56,8 @@ hadithshow.isEmpty?Center(child: CircularProgressIndicator())
                 margin: EdgeInsets.symmetric(horizontal: 50),
               ),
                   itemCount: hadithshow.length))
+             ,
+
 
 
 
@@ -82,4 +84,5 @@ hadithshow.add(haddith);
   });
 }
 }
+
 

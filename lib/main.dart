@@ -26,8 +26,7 @@ class MyApp extends StatelessWidget {
       title: 'إسلامي',
       theme: MyThemData.LightThem,
       darkTheme: MyThemData.DarkThem,
-      themeMode:ThemeMode.dark ,
-
+      themeMode: ThemeMode.light,
     );
   }
 }
